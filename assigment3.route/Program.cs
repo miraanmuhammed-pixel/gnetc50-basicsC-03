@@ -36,5 +36,26 @@ class Program
 
         #endregion
 
+        #region q4
+
+        // Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with
+        // "Clean Code".
+
+        // string bookTitle = "clean code";
+        //
+        // void PrintBookTitle(string title)
+        // {
+        //     Console.WriteLine($"book title is {title}");
+        //     }
+        //
+        // ;
+        //
+        // PrintBookTitle(bookTitle);
+        
+        #endregion
+        
+        
+        }
+        
+    
     }
-}
