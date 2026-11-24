@@ -21,6 +21,20 @@ class Program
 
 
         #endregion
-        
+
+        #region q3
+        // Write a method called PrintWelcomeMessage that takes no parameters and prints
+        // "Welcome to the Library!". Call it from Main.
+
+        // void PrintWelcomeMessage()
+        // {
+        //     Console.WriteLine("Welcome to the Library!");
+        // }
+        // ;
+        // PrintWelcomeMessage();
+
+
+        #endregion
+
     }
 }
