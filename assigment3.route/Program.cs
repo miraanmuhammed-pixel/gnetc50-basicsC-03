@@ -53,9 +53,28 @@ class Program
         // PrintBookTitle(bookTitle);
         
         #endregion
-        
-        
-        }
+
+        #region q5
+
+        // Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable
+        // int pages = 400; and print pages afterward. What do you expect to see, and why?
+
+//         void AddBonusPages(int pages)
+//         {
+//             pages += 50;
+//         }
+//
+//         int pages = 400;
+//
+// AddBonusPages(pages);
+// Console.WriteLine($"page after calling method={pages}");
+// //i expect 400 because its passing by value and passing by value assigned acopy
+//of the variable to  the parameter
+
+        #endregion
+
+
+    }
         
     
     }
