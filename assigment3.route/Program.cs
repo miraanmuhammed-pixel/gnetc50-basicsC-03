@@ -154,20 +154,45 @@ class Program
        // Console.WriteLine(result);
         #endregion
 
-        #region q10
+        #region q10 &q11
 
         // Write a method PrintBookInfo(string title, int pages = 300) where pages is optional. Call
         //     it once with only a title, and once passing both a title and pages.
-        static void PrintBookInfo(string title, int pages = 300)
-        {
-            Console.WriteLine(title);
-            Console.WriteLine(pages);
-        }
-        PrintBookInfo("clean code");
-        PrintBookInfo("clean code",600);
+        //call it by naming the
+        // parameters, passing pages before title.
+        // static void PrintBookInfo(string title, int pages = 300)
+        // {
+        //     Console.WriteLine(title);
+        //     Console.WriteLine(pages);
+        // }
+        // PrintBookInfo("clean code");
+        // PrintBookInfo("clean code",600);
+        // PrintBookInfo(pages:700,title:"clean code");
         #endregion
 
-    }
+        #region q12
         
-    
+        // Write a method PrintAllTitles(params string[] titles) that prints each title on its own line.
+        //
+        //     Call it with three book titles.
+        
+        // static void PrintAllTitles(params string[] titles)
+        // {
+        //     foreach (string title in titles)
+        //     {
+        //         Console.WriteLine(title);
+        //     }
+        // }
+        //
+        //
+        //     PrintAllTitles(
+        //         "Clean Code",
+        //         "The Pragmatic Programmer",
+        //         "Design Patterns"
+        //     );
+        //
+        #endregion
     }
+      }  
+    
+    
